@@ -35,7 +35,9 @@ npm install
 
 3. Create the .env file with the Open Router Api Key
 
+```
 echo "OPENROUTER_API_KEY=your_key_here" > .env
+```
 
 4. Build the dist folder:
 
@@ -48,6 +50,8 @@ npm run build
 ```
 npm run extract -- --pdf "YOUR PDF URL"  --output resultado.json
 ```
+
+You can use the pdfs example in examples folder, how: "examples/CRA022002XM_Termo de securitização_2022-03-22.pdf"
 
 ## Using the main script for others contexts
 
